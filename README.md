@@ -3,6 +3,7 @@
 ## Dependencies
 - [qb-menu](https://github.com/qbcore-framework/qb-menu)
 - [qb-target](https://github.com/qbcore-framework/qb-target)
+- [ps-dispatch](https://github.com/project-sloth/ps-dispatch)
 
 ## Screenshots
 ![qb-target](https://i.imgur.com/3FX8ter.png)
