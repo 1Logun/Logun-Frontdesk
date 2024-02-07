@@ -54,7 +54,7 @@ exports('WeaponLicenseAssistance', WeaponLicenseAssistance)
 
 Next head over to ``ps-dispatch/shared/config.lua`` and scroll down until you see ``Config.Blips = {`` insert the snippit below under ``Config.Blips = {``
 ```
-	['GeneralAssistance'] = {
+   ['GeneralAssistance'] = {
         radius = 0,
         sprite = 66,
         color = 5,
