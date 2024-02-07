@@ -7,7 +7,7 @@
   
 ## Features
 - Toggle Duty Through the Duty Menu (Police Only)
-- Civillians can call for assistance through the assistance menu either for General Assistance or for Weapon License Assistance
+- Civilians can call for assistance through the assistance menu either for General Assistance or for Weapon License Assistance
 - Can be used at multiple locations
   
 ## Installation
