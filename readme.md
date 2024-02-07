@@ -52,7 +52,63 @@ end
 exports('WeaponLicenseAssistance', WeaponLicenseAssistance)
 ```
 
+Next head over to ``ps-dispatch/shared/config.lua`` and scroll down until you see ``Config.Blips = {`` insert the snippit below under ``Config.Blips = {``
+```
+	['GeneralAssistance'] = {
+        radius = 0,
+        sprite = 66,
+        color = 5,
+        scale = 1.0,
+        length = 2,
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
+        offset = false,
+        flash = false
+    },
+    ['WeaponLicenseAssistance'] = {
+        radius = 0,
+        sprite = 110,
+        color = 5,
+        scale = 1.0,
+        length = 2,
+        sound = 'Lose_1st',
+        sound2 = 'GTAO_FM_Events_Soundset',
+        offset = false,
+        flash = false
+    },
+```
 
+Next go to ``qb-target/init.lua`` and insert the snippit below under ``Config.BoxZones = {``
+```
+Config.BoxZones = {
+	["MRPFrontDesk"] = {     -- MRPD                                                                    
+        name = "MissionRowFrontDesk",
+        coords = vector3(441.7989, -982.0529, 30.67834),
+        length = 0.45,
+        width = 0.35,
+        heading = 11.0,
+        debugPoly = false,
+        minZ = 30.77834,
+        maxZ = 30.87834,
+        options = {
+            {
+              type = "client",
+              event = "logun-frontdesk:opendutymenu",
+              icon = "fas fa-sign-in-alt",
+              label = "Duty Menu",
+              job = "police",
+            },
+			{
+              type = "client",
+              event = "logun-frontdesk:openassistancemenu",
+              icon = "fas fa-handshake-angle",
+              label = "Assistance Menu",
+            },
+        },
+        distance = 3.5
+    },
+}
+```
 ## Screenshots
 ![qb-target](https://i.imgur.com/3FX8ter.png)
 ![Duty Menu](https://i.imgur.com/v6grBht.png)
