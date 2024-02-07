@@ -5,11 +5,11 @@
 - [qb-target](https://github.com/qbcore-framework/qb-target)
 
 ## Screenshots
-- [qb-target](https://i.imgur.com/3FX8ter.png)
-- [Duty Menu](https://i.imgur.com/v6grBht.png)
-- [Assistance Menu](https://i.imgur.com/TjDzWj2.png)
-- [General Assistance Dispatch Call](https://i.imgur.com/1G4cwl5.png)
-- [Weapon License Dispatch Call](https://i.imgur.com/0KmkaqQ.png)
+![qb-target](https://i.imgur.com/3FX8ter.png)
+![Duty Menu](https://i.imgur.com/v6grBht.png)
+![Assistance Menu](https://i.imgur.com/TjDzWj2.png)
+![General Assistance Dispatch Call](https://i.imgur.com/1G4cwl5.png)
+![Weapon License Dispatch Call](https://i.imgur.com/0KmkaqQ.png)
   
 ## Features
 - Toggle Duty Through the Duty Menu (Police Only)
